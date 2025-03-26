@@ -1,0 +1,58 @@
+#home {
+	background: #ffc107;
+	color: white;
+}
+
+/* Resetando a lista da navbar */
+nav ul {
+    list-style: none;  /* Remove os marcadores (•) */
+    padding: 0;
+    margin: 0;
+    display: flex;  /* Deixa os itens em linha */
+    gap: 20px;  /* Espaçamento entre os itens */
+}
+
+nav ul li {
+    display: inline; /* Garante que os itens fiquem alinhados horizontalmente */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #007bff;  /* Efeito hover azul */
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #fff;
+    border-bottom: 2px solid #ddd;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+.navbar .btn {
+    padding: 8px 15px;
+    font-size: 16px;
+}
+.input-group input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.input-group-append .btn {
+    background-color: #ff9800;
+    border-color: #ff9800;
+}
+
+.input-group-append .btn:hover {
+    background-color: #e68900;
+}
